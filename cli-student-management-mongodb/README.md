@@ -13,6 +13,7 @@
 *   Setup .gitignore and optional .env for MongoDB URI
     
 *   student_management/
+
 ├── main.py
 ├── db.py
 ├── models.py
