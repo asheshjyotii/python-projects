@@ -4,15 +4,14 @@
 ![banner](https://github.com/user-attachments/assets/8c2dca31-fc44-403b-b313-454802fd843f)
 
 ---
-###  Project Setup
 
-- [ ] Initialize project folder and create virtual environment
-    
-*   Install dependencies: pymongo, rich, python-dotenv
-    
-*   Setup .gitignore and optional .env for MongoDB URI
-    
-*   student_management/
+### ✅ Project Setup
+
+- [x] Initialize project folder and create virtual environment  
+- [x] Install dependencies: pymongo, rich, python-dotenv  
+- [x] Setup .gitignore and optional .env for MongoDB URI  
+- [x] Create file structure:
+
 
 ├── main.py
 ├── db.py
@@ -24,15 +23,17 @@
 └── .env
 
     
-### ✅ Core Functionalities (CRUD with MongoDB)
+---
 
-- [x] Connect to MongoDB using pymongo in db.py  
-- [x] Define student data model (name, roll, age, course, etc.)  
-- [x] Implement add_student() with validation and logging  
-- [x] Implement view_students() with pretty table output  
-- [x] Implement search_student() by ID/roll/name  
-- [x] Implement update_student() with validation and logs  
-- [x] Implement delete_student() (hard delete)  
+### 🧱 Core Functionalities (CRUD with MongoDB)
+
+- [ ] Connect to MongoDB using pymongo in db.py  
+- [ ] Define student data model (name, roll, age, course, etc.)  
+- [ ] Implement add_student() with validation and logging  
+- [ ] Implement view_students() with pretty table output  
+- [ ] Implement search_student() by ID/roll/name  
+- [ ] Implement update_student() with validation and logs  
+- [ ] Implement delete_student() (hard delete)  
 
 ---
 
